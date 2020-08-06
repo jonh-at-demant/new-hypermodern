@@ -12,6 +12,7 @@ new-hypermodern = "new_hypermodern.console:main"
 [tool.poetry.dependencies]
 python = "^3.6"
 click = "^7.1.2"
+httpx = "^0.13.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
