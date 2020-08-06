@@ -6,6 +6,9 @@ license = "MIT"
 authors = ["Jon Palle Hansen <jonh@demant.com>"]
 keywords = ["hypermodern"]
 
+[tool.poetry.scripts]
+new-hypermodern = "new_hypermodern.console:main"
+
 [tool.poetry.dependencies]
 python = "^3.6"
 click = "^7.1.2"
