@@ -1,6 +1,10 @@
 My version of [hypermodern-python](https://github.com/cjolowicz/hypermodern-python) for playing around. There is [an excellent companion blog](https://cjolowicz.github.io/posts/hypermodern-python-01-setup/) by Claudio Jolowicz.
 
-h2. Tips
+## Tips
+Before using poetry commands you need to source it:
+
+source ~/.poetry/env
+
 When setting up the package in src layout, do not do this manually, but simply type
 
 poetry new --src <package-name>
