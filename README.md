@@ -8,3 +8,6 @@ poetry new --src <package-name>
 Replace <package-name> with the name of your package/repository.
 
 This is probably a new poetry feature described here: https://python-poetry.org/docs/cli/#new
+
+When switching to the directory to develop further source poetry first:
+source ~/.poetry/env
